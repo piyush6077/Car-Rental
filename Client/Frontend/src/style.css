@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 .swiper {
   width: 100%;
@@ -69,19 +67,10 @@ background-attachment: fixed;
 background-blend-mode: multiply;
 
 &:nth-of-type(1) {
---img: url('./assets/BannerImg.jpg');
+--img: url('../static/assets/car1\ \(6\).jpg');
 }
 }
 
 .textco{
 color:white;
-}
-
-
-.backgroundImg{
-  background-image: linear-gradient(#000, transparent, #000), url('./assets/car44.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
